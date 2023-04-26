@@ -1,0 +1,156 @@
+body {
+    font-family: "Urbanist", sans-serif;
+    color: #35533a;
+  }
+  h1 {
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h5 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  h6 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #4D7465;
+  }
+  footer,
+  .disclaimer {
+    color: #FFFFFF ;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20px;
+  }
+  footer a {
+    color: #dab694 ;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  hr {
+    color: #ffd8b3;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 50px;
+    background: linear-gradient(
+      to bottom,
+      #E1D883 0%,
+      #EDE9C8 30%,
+      #E1D883 64%,
+      #4D7465 100%
+    );
+    border-radius: 20px;
+  }
+  .card-main {
+    padding: 5px;
+    background: none;
+  }
+  .card {
+    padding: 5px;
+    background: #E1D883;
+    border: none;
+    border-radius: 15px;
+  }
+  .btn-secondary {
+    background-color: #4D7465 ;
+  }
+  .btn {
+    border: none;
+  }
+  .btn:hover {
+    color: #E1D883;
+  }
+  .weather-today {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #EDE9C8;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 5px;
+  }
+  .weather-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 5px;
+  }
+  .date-today,
+  .time-current {
+    font-size: 22px;
+  }
+  .current-temp {
+    font-size: 80px;
+    font-weight: 800;
+    text-align: right;
+  }
+  .degrees {
+    font-size: 22px;
+    position: relative;
+    top: -40px;
+    left: -2px;
+  }
+  #celsius-link:hover,
+  #farenheit-link:hover {
+    color: #4D7465;
+  }
+  .condition-today,
+  .today-min,
+  .humidity,
+  .wind,
+  .time {
+    font-size: 22px;
+    text-align: center;
+  }
+  .today-max {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .today-max-min {
+    position: relative;
+    text-align: center;
+  }
+  .pipe {
+    color: #4D7465;
+    font-size: 22px;
+  }
+  .pipe-small {
+    color: #4D7465;
+    font-size: 16px;
+  }
+  .pipe-group,
+  .temp-group {
+    position: static;
+    text-align: center;
+  }
+  .temp-max {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .temp-min {
+    font-size: 12px;
+  }
